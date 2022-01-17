@@ -1,0 +1,66 @@
+body{
+    display:flex;
+    flex-direction: row;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background: white;
+    margin-left: 3%;
+    text-align: center;
+    align-items: center;
+}
+.item1{
+    background: #94cebc;
+    margin:  0%;
+    width: 100%;
+    color: #3b865b;
+}
+.item2{
+    background: #49a17d;
+    margin-top: 0%;
+    font-weight: bolder;
+    width: 100%;
+}
+aside .item1 img{
+    height: auto;
+    background-color: #95f1a5;
+}
+
+section{
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 3%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.receta{display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+}
+.receta a{
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black; text-align: center;
+}
+
+.receta a:hover{
+    color: #49a17d;
+}
+.receta img{
+    margin: 10px;
+    height: auto;
+    max-width: 100%;
+}
+
+.date{
+    border-top: 1px solid #3b865b;
+    border-bottom: 1px solid #3b865b;
+    margin: 10px;
+}
